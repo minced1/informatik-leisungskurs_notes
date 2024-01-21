@@ -35,13 +35,15 @@
 \contentsline {paragraph}{Progress}{5}{subsection.4.3}%
 \contentsline {paragraph}{National Security}{5}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Immigration}{5}{subsection.4.4}%
-\contentsline {paragraph}{Illegal immigration}{6}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}American dream}{6}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Racial issues}{6}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Gun laws}{8}{subsection.4.7}%
 \contentsline {paragraph}{Gun culture in the US}{8}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Modern Media}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Modern digital media}{9}{subsection.5.1}%
+\contentsline {section}{\numberline {5}Modern Media}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Modern digital media}{8}{subsection.5.1}%
+\contentsline {paragraph}{School and work}{8}{subsection.5.1}%
+\contentsline {paragraph}{Digital image processing}{8}{table.caption.3}%
+\contentsline {paragraph}{Surveillance}{9}{table.caption.4}%
 \contentsline {subsection}{\numberline {5.2}Web 2.0: opportunities and challenges}{9}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}English as a global language}{9}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Crooked Letter, Crooked Letter}{9}{section.6}%
