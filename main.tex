@@ -1,12 +1,9 @@
 % arara: lualatex: {options: []}
 \documentclass[10pt]{article}
-\usepackage{NotesTeXV3,csquotes,tabularx}
-\SetColorProfile{BEA035}{9C8C52}{3D4CDB}{525786}{5C5748}
+\usepackage{notestex,csquotes,tabularx}
+\SetColorProfile{9C8C52}{BEA035}{3D4CDB}{525786}{5C5748}
 \usepackage[english]{babel}
-% \tolerance=1
-% \emergencystretch=\maxdimen
-% \hyphenpenalty=10000
-% \hbadness=10000
+\renewcommand{\arraystretch}{1.5}
 
 \begin{document}
 \title{{Englisch}\\{\normalsize{\itshape Leistungskurs}}}
@@ -41,9 +38,28 @@
 	\label{ssec:india@language}
 \subsection{Technology vs. Backwardsness}
 	\label{ssec:india@tech}
-
-\section{Globalization}
+\newpage
+\section{Globalisation}
 	\label{sec:global}
+The focus of globalisation has changed over the years. As it progressed, the world shrunk.
+People grew more connected and technology evolved.
+\begin{table}[h!]
+	\centering
+	\begin{tabularx}{\textwidth}{ >{\raggedleft}X | X X X}
+		\hline
+		& {\sffamily\bfseries 1.0} & {\sffamily\bfseries 2.0} & {\sffamily\bfseries 3.0} \\ \hline
+		{\sffamily\bfseries time frame} & 1492--1800 & 1800--2000 & 2000--today \\
+		{\sffamily\bfseries size of world} & medium & small & tiny \\
+		{\sffamily\bfseries major players} & countries & companies & individuals \\
+		{\sffamily\bfseries driving force} & countries, governments, (muscle) power & multinational companies & more diverse (non-western, non-white), empowerment through digitalisation \\
+		{\sffamily\bfseries key technology} & collaboration, trade, sailing ships & railway, steam engine & digital technology, fiber-optic cable, internet, satellites \\
+		{\sffamily\bfseries primary question} & Where does country fit in and go global? & Where does company fit in and go global? & Where do I fit in and go global? \\ \hline
+
+	\end{tabularx}
+	\caption{Change of globalisation over the years}
+	\label{tab:my_label}
+\end{table}
+
 \subsection{Social aspects}
 	\label{ssec:global@social}
 \subsection{Political aspects}
@@ -130,23 +146,25 @@ forbids the government from denying these liberties. Included are the freedoms o
 the press, and the right to assemble. Today the Bill of Rights also serves to protect minorities and
 individuals from the majority. Altogether there have been 27 amendments to the Constitution.
 \begin{example}
-\fakeparagraph{Amendment I}
+\begin{minipage}{\linewidth}
+\paragraph{Amendment I}
 Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging
 the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government
 for a redress of grievances.
 
-\fakeparagraph{Amendment II}
+\paragraph{Amendment II}
 A well-regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall
 not be infringed.
 
-\fakeparagraph{Amendment III}
+\paragraph{Amendment III}
 No soldier shall, in time of peace be quartered in any house, without the consent of the owner, nor in time of war, but in a
 manner to be prescribed by law.
 
-\fakeparagraph{Amendment IV}
+\paragraph{Amendment IV}
 The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and
 seizures, shall not be violated, and no warrants shall issue, but upon probable cause, supported by oath or affirmation, and
 particularly describing the place to be searched, and the persons or things to be seized.
+\end{minipage}
 \end{example}
 \subsection{Values}
 	\label{ssec:usa@values}
@@ -319,6 +337,37 @@ a gun hadn't been involved.
 	\label{ssec:media@digital}
 \subsection{Web 2.0: opportunities and challenges}
 	\label{ssec:media@web2}
+The Web 2.0 is different from the Web 1.0 in that people can now use portals like YouTube, Instagram
+or TikTok to put their content out to the world. Previously, a person had to have personal
+Website or Blog. Maintaining that is a rather tedious task, so enterprises like Google and Meta where
+founded to take on the job of hosting the servers.
+
+The audience of content creators grew as many people where connected
+on a single platform and not spread over various Blogs. But now that the enterprises hosted their users data, they
+technically own it if not specified differently in the terms of use.
+
+Thus, recently there
+have been new projects trying the build a federated network (called the Web 3.0), which still promises far reach
+through a common portal but with the option of private data ownership through privately hosted
+servers.
+\begin{table}[h!]
+	\centering
+	\begin{tabularx}{.8\textwidth}{| X | X |}
+		\hline
+		{\sffamily\bfseries Opportunities} & {\sffamily\bfseries Challenges} \\ \hline
+		Fast spreading of information & Fast spreading of misinformation \\ \hline
+		Ability to stay anonymous & Anonymity can be abused \\ \hline
+		Huge pool of information & Risk of data leakage or doxing \\ \hline
+		Great diversity in people & Forming of political bubbles \\ \hline
+		Easy ways to communicate and share personal life & Addictive \linebreak\rightarrow  mental health issues \\ \hline
+		New jobs & High emissions through servers using lots of electrical power \\ \hline
+		Freedom of speech & No general protection from hate speech\\ \hline
+		Quick access to entertainment & Influencers influencing decision making based on sponsors \\ \hline
+	\end{tabularx}
+	\caption{Opportunities and challenges of the Web 2.0}
+	\label{tab:my_label}
+\end{table}
+
 \subsection{English as a global language}
 	\label{ssec:media@english}
 

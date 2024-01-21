@@ -9,36 +9,40 @@
 \contentsline {subsection}{\numberline {2.2}Poverty}{1}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Language}{1}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Technology vs. Backwardsness}{1}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Globalization}{1}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Social aspects}{1}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Political aspects}{1}{subsection.3.2}%
+\contentsline {section}{\numberline {3}Globalisation}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Social aspects}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Political aspects}{2}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Economic aspects}{2}{subsection.3.3}%
 \contentsline {section}{\numberline {4}United States of America}{2}{section.4}%
 \contentsline {subsection}{\numberline {4.1}History}{2}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Constitution}{3}{subsection.4.2}%
 \contentsline {paragraph}{The Declaration of Independence}{3}{subsection.4.2}%
-\contentsline {paragraph}{The Preamble to the United States Constitution}{3}{example.1}%
-\contentsline {paragraph}{The Bill of Rights}{3}{example.2}%
+\contentsline {paragraph}{The Preamble to the United States Constitution}{4}{example.1}%
+\contentsline {paragraph}{The Bill of Rights}{4}{example.2}%
+\contentsline {paragraph}{Amendment I}{4}{example.3}%
+\contentsline {paragraph}{Amendment II}{4}{example.3}%
+\contentsline {paragraph}{Amendment III}{4}{example.3}%
+\contentsline {paragraph}{Amendment IV}{4}{example.3}%
 \contentsline {subsection}{\numberline {4.3}Values}{4}{subsection.4.3}%
 \contentsline {paragraph}{Democracy}{4}{subsection.4.3}%
 \contentsline {paragraph}{The Pursuit of Happiness}{4}{subsection.4.3}%
 \contentsline {paragraph}{Individual Freedom}{4}{subsection.4.3}%
-\contentsline {paragraph}{Individualism and Self-Reliance}{4}{subsection.4.3}%
-\contentsline {paragraph}{Can-Do-Spirit}{4}{subsection.4.3}%
-\contentsline {paragraph}{Equal Opportunities}{4}{subsection.4.3}%
-\contentsline {paragraph}{Mobility}{4}{subsection.4.3}%
-\contentsline {paragraph}{Patriotism}{4}{subsection.4.3}%
-\contentsline {paragraph}{Progress}{4}{subsection.4.3}%
-\contentsline {paragraph}{National Security}{4}{subsection.4.3}%
+\contentsline {paragraph}{Individualism and Self-Reliance}{5}{subsection.4.3}%
+\contentsline {paragraph}{Can-Do-Spirit}{5}{subsection.4.3}%
+\contentsline {paragraph}{Equal Opportunities}{5}{subsection.4.3}%
+\contentsline {paragraph}{Mobility}{5}{subsection.4.3}%
+\contentsline {paragraph}{Patriotism}{5}{subsection.4.3}%
+\contentsline {paragraph}{Progress}{5}{subsection.4.3}%
+\contentsline {paragraph}{National Security}{5}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Immigration}{5}{subsection.4.4}%
-\contentsline {paragraph}{Illegal immigration}{5}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}American dream}{5}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Racial issues}{5}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Gun laws}{7}{subsection.4.7}%
-\contentsline {paragraph}{Gun culture in the US}{7}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Modern Media}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Modern digital media}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Web 2.0: opportunities and challenges}{7}{subsection.5.2}%
+\contentsline {paragraph}{Illegal immigration}{6}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}American dream}{6}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Racial issues}{6}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Gun laws}{8}{subsection.4.7}%
+\contentsline {paragraph}{Gun culture in the US}{8}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Modern Media}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Modern digital media}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Web 2.0: opportunities and challenges}{8}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}English as a global language}{8}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Crooked Letter, Crooked Letter}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Ambiguity of belonging}{8}{subsection.6.1}%
+\contentsline {section}{\numberline {6}Crooked Letter, Crooked Letter}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Ambiguity of belonging}{9}{subsection.6.1}%
