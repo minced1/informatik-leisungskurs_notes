@@ -1,6 +1,6 @@
 % arara: lualatex: {options: []}
 \documentclass[10pt]{article}
-\usepackage{notestex,csquotes,tabularx}
+\usepackage{notestex,csquotes,tabularx,lipsum}
 \SetColorProfile{9C8C52}{BEA035}{3D4CDB}{525786}{5C5748}
 \usepackage[english]{babel}
 \renewcommand{\arraystretch}{1.5}
@@ -44,7 +44,7 @@
 	\label{sec:global}
 The focus of globalisation has changed over the years. As it progressed, the world shrunk.
 People grew more connected and technology evolved.
-\begin{table}[h!]
+\begin{table}[htbp]
 	\centering
 	\begin{tabularx}{\textwidth}{ >{\raggedleft}X | X X X}
 		\hline
@@ -245,7 +245,7 @@ U.S. president \emph{Donald Trump's} presidential campaign. He repeatedly said t
 criminals. A hallmark promise of his campaign was to build a substantial wall on the United States-
 Mexico border and to force Mexico to pay for the wall.
 
-\begin{table}[h!]
+\begin{table}[htbp]
 	\centering
 	\begin{tabularx}{\textwidth}{l|l}
 		\hline
@@ -337,7 +337,7 @@ a gun hadn't been involved.
 	\label{ssec:media@digital}
 \paragraph{School and work} Digital media has been used in business for a long time but
 has only recently made its way into school. A lot has changed since then.
-\begin{table}[h!]
+\begin{table}[htbp]
 	\centering
 	\begin{tabularx}{\textwidth}{X X}
 		\hline
@@ -386,7 +386,7 @@ surveillance can help create a safer society.
 The Web 2.0 is different from the Web 1.0 in that people can now use portals like YouTube, Instagram
 or TikTok to put their content out to the world. Previously, a person had to have personal
 Website or Blog. Maintaining that is a rather tedious task, so enterprises like Google and Meta where
-founded to take on the job of hosting the servers.
+founded to take on the job of hosting the servers. \\ See Table \ref{tab:web2} for further information.
 
 The audience of content creators grew as many people where connected
 on a single platform and not spread over various Blogs. But now that the enterprises hosted their users data, they
@@ -396,7 +396,7 @@ Thus, recently there
 have been new projects trying the build a federated network (called the Web 3.0), which still promises far reach
 through a common portal but with the option of private data ownership through privately hosted
 servers.
-\begin{table}[h!]
+\begin{table}[htbp]
 	\centering
 	\begin{tabularx}{\textwidth}{X X}
 		\hline
@@ -411,15 +411,13 @@ servers.
 		Quick access to entertainment & Influencers influencing decision making based on sponsors \\ \hline
 	\end{tabularx}
 	\caption{Opportunities and challenges of the Web 2.0}
-	\label{tab:my_label}
+	\label{tab:web2}
 \end{table}
 
 \subsection{English as a global language}
 	\label{ssec:media@english}
-
 \section{Crooked Letter, Crooked Letter}
 	\label{sec:crookedl}
 \subsection{Ambiguity of belonging}
 	\label{ssec:crookedl@ambofbelonging}
-
 \end{document}
