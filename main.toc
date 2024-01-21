@@ -19,10 +19,6 @@
 \contentsline {paragraph}{The Declaration of Independence}{3}{subsection.4.2}%
 \contentsline {paragraph}{The Preamble to the United States Constitution}{4}{example.1}%
 \contentsline {paragraph}{The Bill of Rights}{4}{example.2}%
-\contentsline {paragraph}{Amendment I}{4}{example.3}%
-\contentsline {paragraph}{Amendment II}{4}{example.3}%
-\contentsline {paragraph}{Amendment III}{4}{example.3}%
-\contentsline {paragraph}{Amendment IV}{4}{example.3}%
 \contentsline {subsection}{\numberline {4.3}Values}{4}{subsection.4.3}%
 \contentsline {paragraph}{Democracy}{4}{subsection.4.3}%
 \contentsline {paragraph}{The Pursuit of Happiness}{4}{subsection.4.3}%
