@@ -18,14 +18,14 @@
 \contentsline {subsection}{\numberline {3.1}Social aspects}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Political aspects}{4}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Economic aspects}{4}{subsection.3.3}%
-\contentsline {section}{\numberline {4}United States of America}{4}{section.4}%
+\contentsline {section}{\numberline {4}United States of America}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}History}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Constitution}{5}{subsection.4.2}%
-\contentsline {paragraph}{The Declaration of Independence}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Constitution}{6}{subsection.4.2}%
+\contentsline {paragraph}{The Declaration of Independence}{6}{subsection.4.2}%
 \contentsline {paragraph}{The Preamble to the United States Constitution}{6}{example.1}%
 \contentsline {paragraph}{The Bill of Rights}{6}{example.2}%
-\contentsline {subsection}{\numberline {4.3}Values}{6}{subsection.4.3}%
-\contentsline {paragraph}{Democracy}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Values}{7}{subsection.4.3}%
+\contentsline {paragraph}{Democracy}{7}{subsection.4.3}%
 \contentsline {paragraph}{The Pursuit of Happiness}{7}{subsection.4.3}%
 \contentsline {paragraph}{Individual Freedom}{7}{subsection.4.3}%
 \contentsline {paragraph}{Individualism and Self-Reliance}{7}{subsection.4.3}%
@@ -35,17 +35,25 @@
 \contentsline {paragraph}{Patriotism}{7}{subsection.4.3}%
 \contentsline {paragraph}{Progress}{7}{subsection.4.3}%
 \contentsline {paragraph}{National Security}{7}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Immigration}{7}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}American dream}{8}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Racial issues}{8}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Gun laws}{10}{subsection.4.7}%
-\contentsline {paragraph}{Gun culture in the US}{10}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Modern Media}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Modern digital media}{10}{subsection.5.1}%
-\contentsline {paragraph}{School and work}{10}{subsection.5.1}%
-\contentsline {paragraph}{Digital image processing}{11}{table.caption.3}%
-\contentsline {paragraph}{Surveillance}{11}{table.caption.4}%
-\contentsline {subsection}{\numberline {5.2}Web 2.0: opportunities and challenges}{11}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}English as a global language}{11}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Crooked Letter, Crooked Letter}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Ambiguity of belonging}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {4.4}Immigration}{8}{subsection.4.4}%
+\contentsline {paragraph}{Melting pot or salad bowl?}{8}{table.caption.2}%
+\contentsline {subsection}{\numberline {4.5}American dream}{9}{subsection.4.5}%
+\contentsline {paragraph}{Why the American Dream needs to be reinvented}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Racial issues}{9}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Gun laws}{11}{subsection.4.7}%
+\contentsline {paragraph}{Gun culture in the US}{11}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Modern Media}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Modern digital media}{11}{subsection.5.1}%
+\contentsline {paragraph}{School and work}{11}{subsection.5.1}%
+\contentsline {paragraph}{Digital image processing}{11}{table.caption.4}%
+\contentsline {paragraph}{Surveillance}{12}{table.caption.5}%
+\contentsline {subsection}{\numberline {5.2}Web 2.0: opportunities and challenges}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}English as a global language}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Ambiguity of belonging: Crooked Letter, Crooked Letter}{13}{section.6}%
+\contentsline {paragraph}{Larry}{13}{definition.2}%
+\contentsline {paragraph}{Silas}{13}{definition.2}%
+\contentsline {paragraph}{Title}{14}{definition.2}%
+\contentsline {paragraph}{Setting}{14}{definition.2}%
+\contentsline {paragraph}{Theme}{14}{definition.2}%
+\contentsline {paragraph}{Structure}{14}{definition.2}%
+\contentsline {paragraph}{Conflict}{14}{definition.2}%
