@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  24 JAN 2024 13:56
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  28 JAN 2024 18:21
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2236,7 +2236,7 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
  [0
 
 
-{/nix/store/blh3pjf9yfx660yb5xxlzvaar8s0hlry-texlive-combined-full-2022-final/sh
+{/nix/store/b1fbrvi2gdf1k4wafkj3sld0j60n6x3f-texlive-combined-full-2022-final/sh
 are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package marginnote Info: Using workaround for absolute page number on input lin
 e 17.
@@ -2265,58 +2265,85 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ]
 Package marginnote Info: Using workaround for absolute page number on input lin
 e 45.
- [2]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 72.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.2
+'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.3
+'
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.4
+'
+
+Underfull \hbox (badness 3449) in paragraph at lines 79--79
+[]$[][]$ \TU/TEXGyrePagella(0)/m/it/8 Loose al-liance of  coun-tries
+ []
+
+[2
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.5
+'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.6
+'
+]
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+[3]
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 113.
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \TU/TEXGyrePagella(0)/m/n/10 ments, (mus-cle)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\TU/TEXGyrePagella(0)/m/n/10 more di-verse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \TU/TEXGyrePagella(0)/m/n/10 white), em-pow-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \TU/TEXGyrePagella(0)/m/n/10 er-ment through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\TU/TEXGyrePagella(0)/m/n/10 col-lab-o-ra-tion,
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 94--94
+Underfull \hbox (badness 1762) in paragraph at lines 135--135
 \TU/TEXGyrePagella(0)/m/n/10 try fit in and go
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 94--94
+Underfull \hbox (badness 1622) in paragraph at lines 135--135
 []|\TU/TEXGyrePagella(0)/m/n/10 Where does com-
  []
 
-[3]
+[4]
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 146.
- [4] [5] [6] [7] [8] [9]
-Underfull \hbox (badness 1748) in paragraph at lines 413--413
+t line 187.
+ [5] [6] [7] [8] [9] [10]
+Underfull \hbox (badness 1748) in paragraph at lines 454--454
 []|\TU/TEXGyrePagella(0)/m/n/10 Iden-ti-fi-ca-tion of crim-i-nals (CCTV) or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 []|\TU/TEXGyrePagella(0)/m/n/10 Ad-dic-tive
  []
 
-[10] [11] (./main.aux)
+[11] [12] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2325,17 +2352,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54347 strings out of 478290
+ 54351 strings out of 478290
  125236,2373549 words of node,token memory allocated
- 6227 words of node memory still in use:
-   38 hlist, 12 vlist, 2 rule, 34 disc, 6 local_par, 10 math, 107 glue, 74 kern,
- 16 penalty, 5 margin_kern, 459 glyph, 93 attribute, 105 glue_spec, 48 attribute
-_list, 2 write nodes
-   avail lists: 1:1,2:1777,3:601,4:152,5:943,6:113,7:9275,8:59,9:719,10:9,11:667
+ 13170 words of node memory still in use:
+   84 hlist, 28 vlist, 2 rule, 70 disc, 14 local_par, 26 math, 234 glue, 156 ker
+n, 40 penalty, 16 margin_kern, 1033 glyph, 225 attribute, 105 glue_spec, 114 att
+ribute_list, 2 write nodes
+   avail lists: 1:2,2:1777,3:601,4:152,5:943,6:113,7:9275,8:59,9:719,10:9,11:667
 
  72709 multiletter control sequences out of 65536+600000
- 130 fonts using 26873791 bytes
- 114i,13n,127p,1000b,976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130 fonts using 26873655 bytes
+ 114i,13n,127p,1000b,978s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </nix/store/s45d7530dlxbc0pbwyk684v1kfi505v7-gyre-fonts-2.005/share/fonts/truety
 pe/texgyrepagella-bold.otf></nix/store/da20dkff6bggc1vmmgmaqy3rz2grhmsn-gyre-fon
 ts-2.005/share/fonts/truetype/texgyreadventor-italic.otf></nix/store/s45d7530dlx
@@ -2349,10 +2376,10 @@ are/fonts/truetype/texgyreadventor-bolditalic.otf></nix/store/da20dkff6bggc1vmmg
 maqy3rz2grhmsn-gyre-fonts-2.005/share/fonts/truetype/texgyreadventor-bold.otf></
 nix/store/pz4zk32hwjcnvcpcbpfj6sgznas444j5-texlive-combined-full-2022-final-texm
 fdist/fonts/type1/public/ccicons/ccicons.pfb>
-Output written on main.pdf (13 pages, 88060 bytes).
+Output written on main.pdf (14 pages, 93990 bytes).
 
-PDF statistics: 296 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 131072)
+PDF statistics: 303 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 131072)
  240 words of extra memory for PDF output out of 10000 (max. 100000000)
 
