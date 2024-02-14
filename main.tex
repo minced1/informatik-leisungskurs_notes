@@ -1,9 +1,25 @@
 % arara: lualatex: {options: []}
+% arara: biber: { options: [ '--wraplines' ] }
+% arara: lualatex: {options: []}
 \documentclass[10pt]{article}
 \usepackage{notestex,csquotes,tabularx,lipsum}
 \SetColorProfile{9C8C52}{BEA035}{3D4CDB}{525786}{5C5748}
 \usepackage[english]{babel}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
 \renewcommand{\arraystretch}{1.5}
+\usetikzlibrary{mindmap,trees}
+\tikzset{
+concept/.append style={fill={none}, text=black, font=\sffamily\footnotesize},
+root concept/.append style={concept color=ntex@color@primary},
+level 1 concept/.append style={every child/.style={concept color=ntex@color@secondary}},
+level 2 concept/.append style={every child/.style={concept color=ntex@color@tertiary}},
+level 3 concept/.append style={every child/.style={concept color=ntex@color@quaternary}},
+level 4 concept/.append style={every child/.style={concept color=ntexq@color@quinary}},
+}
 
 \begin{document}
 \title{{Englisch}\\{\normalsize{\itshape Leistungskurs}}}
@@ -12,18 +28,50 @@
 	Carl-Friedrich-Gauß Gymnasium Hockenheim\\
 	\href{https://github.com/minced1}{GitHub}\\
 	}
-	\emailAdd{j.gude@posteo.de}
+	\emailAdd{j.gude/posteo.de}
 	\license{This work is licensed under \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0}}{\ccbyncsa}
-	\maketitle
-	\newpage
-	\pagestyle{fancynotes}
+\maketitle
+\newpage
+
+	% \usetikzlibrary {arrows.meta,graphs,graphdrawing}
+	% \usegdlibrary {circular}
+	% \begin{tikzpicture}
+\newcommand\myref[1]{\footnotesize \nameref{#1}}
+	% \centering
+	% \graph [
+	% simple necklace layout,
+	% nodes={
+	% 	draw, align=center, inner xsep=0.5em, text width=2cm,
+	% 	typeset={\myref{\tikzgraphnodefullname}}
+	% },
+	% ] { uk --  {uk/empire, goal, uk/immig -- {goal -- uk, uk/empire}} };
+ %  \end{tikzpicture}
+
+
+\pagestyle{empty}
+
+\newpage
+\pagestyle{fancynotes}
 
 \part{Kommunikationsprüfung}
 	\label{part:kompruef}
 \section{United Kingdom}
 	\label{sec:uk}
+
+\begin{tikzpicture}
+	\path[mindmap]
+		node[concept] {\nameref{sec:uk}}
+		[clockwise from=0]
+		child { node[concept] {\nameref{sec:uk/empire}}}
+		child { node[concept] {\nameref{sec:uk/brexit}}
+			child { node[concept] {\nameref{par:uk/brexit/ecorole}}}
+			child { node[concept] {\nameref{par:uk/brexit/globrole}}}
+			child { node[concept] {\nameref{par:uk/brexit/natproblems}}}
+		}
+	;
+\end{tikzpicture}
 \subsection{Empire and Commonwealth}
-	\label{ssec:uk@empire}
+	\label{sec:uk/empire}
 \begin{itemize}[leftmargin=5pt+\widthof{next 200 years}]
 \item[16th century] Spain and France dominate oceans; Queen Elisabeth I. tasks pirates to attack and rob Spanish colonies and ships
 \item[1588] Spanish \enquote*{Armada} (navy) threatens Great Britain (GB); GB builds the royal navy \sn{A good navy allows smaller nations to fight successfully against larger ones, as the quality matters more than the quantity}; next 200 years: GB wins many naval battles; proves dominance over Spain, the Netherlands and France
@@ -49,11 +97,12 @@
 \item[1997] Hong Kong given back to China \sn{regarded as the end of the British Empire; in reality: fell apart decades before that}
 \end{itemize}
 \subsection{Immigration}
-	\label{ssec:uk@immig}
-\subsection{Global role: EU and Brexit}
-	\label{ssec:uk@brexit}
-	\setcounter{sidenote}{1}
-\paragraph{Goal of Brexit}
+	\label{sec:uk/immig}
+\subsection{EU and Brexit}
+	\label{sec:uk/brexit}
+\setcounter{sidenote}{1}
+
+\paragraph{Goal of Brexit}\label{par:uk/brexit/goal}
 The goal of Brexit as defined by Boris Johnson was to free the UK of the constraints
 put in place by the EU and refocus on the USA and the former British colonies, as well as
 new markets in Asia.
@@ -64,6 +113,7 @@ highest increase of prizes in 40 years; threat of recession \sn{UK in a state of
 \item [Brexit] No control free transfer of goods and people; border control when entering and exiting the UK; No customs \sn{Zollabgaben}
 \end{itemize}
 \paragraph{Economical role}
+	\label{par:uk/brexit/ecorole}
 \begin{itemize}
 \item Exports nearly unchanged; EU is largest market of UK
 \item Imports from the EU decreased while USA and China increased
@@ -72,7 +122,7 @@ highest increase of prizes in 40 years; threat of recession \sn{UK in a state of
 \item Industry stays powerful until War in Ukraine
 \end{itemize}
 
-\paragraph{Global role}
+\paragraph{Global role}\label{par:uk/brexit/globrole}
 \begin{itemize}
 \item Focus on Commonwealth \sn{Loose alliance of 56 countries (mostly former British colonies)}
 \item Free-trade agreements with Canada, Australia and New Zealand; Hoping for agreement with India
@@ -86,7 +136,7 @@ highest increase of prizes in 40 years; threat of recession \sn{UK in a state of
 \item Delivers weapons to Ukraine as first European nation (mainly anti-tank missiles); Is generally quite distant to Ukraine; Brexit could be a disadvantage with current threats
 \end{itemize}
 
-\paragraph{National problems}
+\paragraph{National problems}\label{par:uk/brexit/natproblems}
 \begin{itemize}
 \item Border between Ireland and North Ireland discussed again \sn{North Ireland Protocol: Free trade and no border controls between Ireland and North Ireland}
 \item Brexit has put a defacto border between North Ireland and Great Britain; Unionists \sn{North Irish people who want to be part of the UK} see their British identity fading away
@@ -97,13 +147,13 @@ highest increase of prizes in 40 years; threat of recession \sn{UK in a state of
 \section{India}
 	\label{sec:india}
 \subsection{Partition of British India}
-	\label{ssec:india@britindia}
+	\label{sec:india/britindia}
 \subsection{Poverty}
-	\label{ssec:india@poverty}
+	\label{sec:india/poverty}
 \subsection{Language}
-	\label{ssec:india@language}
+	\label{sec:india/language}
 \subsection{Technology vs. Backwardsness}
-	\label{ssec:india@tech}
+	\label{sec:india/tech}
 \newpage
 \section{Globalisation}
 	\label{sec:global}
@@ -136,17 +186,59 @@ People grew more connected and technology evolved.
 \end{table}
 
 \subsection{Social aspects}
-	\label{ssec:global@social}
+	\label{ssec:global/social}
 \subsection{Political aspects}
-	\label{ssec:global@political}
+	\label{ssec:global/political}
 \subsection{Economic aspects}
-	\label{ssec:global@economic}
+	\label{ssec:global/economic}
 
 \newpage
 \section{United States of America}
 	\label{sec:usa}
+
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[scale=2]
+	\path[mindmap, grow cyclic]
+		node[concept] {\nameref{sec:usa}}
+		[level 1 concept/.append style={sibling angle=360/7}]
+		child { node[concept] {\nameref{sec:usa/history}}}
+		child { node[concept] {\nameref{sec:usa/const}}
+			child { node[concept] {\tiny\nameref{par:usa/const/indie}}}
+			child { node[concept] {\tiny\nameref{par:usa/const/pre}}}
+			child { node[concept] {\nameref{par:usa/const/bill}}
+				[clockwise from=0]
+				child { node[concept] {\nameref{par:usa/const/bill/I}}}
+				child { node[concept] {\nameref{par:usa/const/bill/II}}}
+				child { node[concept] {\nameref{par:usa/const/bill/III}}}
+				child { node[concept] {\nameref{par:usa/const/bill/IV}}}
+			}
+		}
+		child { node[concept] {\nameref{sec:usa/values}}
+			[level 2 concept/.append style={sibling angle=36}]
+			child { node[concept] {\nameref{par:usa/values/dem}}}
+			child { node[concept] {\nameref{par:usa/values/poh}}}
+			child { node[concept] {\nameref{par:usa/values/free}}}
+			child { node[concept] {\nameref{par:usa/values/indiv}}}
+			child { node[concept] {\nameref{par:usa/values/cds}}}
+			child { node[concept] {\nameref{par:usa/values/eqop}}}
+			child { node[concept] {\nameref{par:usa/values/mob}}}
+			child { node[concept] {\nameref{par:usa/values/pat}}}
+			child { node[concept] {\nameref{par:usa/values/prog}}}
+			child { node[concept] {\nameref{par:usa/values/natsec}}}
+		}
+		child { node[concept] {\nameref{sec:usa/immig}}
+			child { node[concept] {\nameref{tab:usa/immig/win}}}
+			child { node[concept] {\nameref{tab:usa/immig/meltingpot}}}
+		}
+		child { node[concept] {\nameref{sec:usa/dream}}}
+		child { node[concept] {\nameref{sec:usa/racial}}}
+		child { node[concept] {\nameref{sec:usa/guns}}}
+	;
+\end{tikzpicture}
+}
+\newpage
 \subsection{History}
-	\label{ssec:usa@history}
+	\label{sec:usa/history}
 \begin{itemize}[leftmargin=5pt+\widthof{1775 - 1783}]
 \item[1607] First permanent English settlement at Jamestown (Virginia)
 \item[1620] 'Pilgrim Fathers' (i.e. English Puritans) found colony at Plymouth (Massachusetts)
@@ -174,9 +266,10 @@ People grew more connected and technology evolved.
 \item[2021] Joe Biden is elected US President
 \end{itemize}
 
+\newpage
 \subsection{Constitution}
-	\label{ssec:usa@constitution}
-\paragraph{The Declaration of Independence}
+	\label{sec:usa/const}
+\paragraph{The Declaration of Independence}\label{par:usa/const/indie}
 In the Declaration of Independence the thirteen American colonies announced their freedom from
 British rule. One July 11th 1776, Congress appointed a committee to draft a formal Declaration of
 Independence. Thomas Jefferson, one of the appointed members, was asked to write the draft,
@@ -200,7 +293,7 @@ organizing its powers in such form, as to them shall seem most likely to effect 
 Safety and Happiness.
 \end{example}
 
-\paragraph{The Preamble to the United States Constitution}
+\paragraph{The Preamble to the United States Constitution}\label{par:usa/const/pre}
 The Preamble to the United States Constitution, beginning with the words \enquote{We the People}, is a brief
 introductory statement of the Constitution's fundamental purposes and guiding principles. Courts
 have referred to it as reliable evidence of the Founding Fathers' intentions regarding the
@@ -213,7 +306,7 @@ our Posterity, do ordain and establish this Constitution for the United States o
 America.
 \end{example}
 
-\paragraph{The Bill of Rights}
+\paragraph{The Bill of Rights}\label{par:usa/const/bill}
 The original Constitution of the USA was concerned with the way the new government would be
 structured and what powers it had. People were worried that the government might become too
 powerful and autocratic, just like the British king, so a Bill of Rights consisting of ten amendments
@@ -223,53 +316,54 @@ forbids the government from denying these liberties. Included are the freedoms o
 the press, and the right to assemble. Today the Bill of Rights also serves to protect minorities and
 individuals from the majority. Altogether there have been 27 amendments to the Constitution.
 \begin{example}
-\fakeparagraph{Amendment I}
+\textit{Excerpt from the Bill of Rights}
+\paragraph{Amendment I}\label{par:usa/const/bill/I}
 Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging
 the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the government
 for a redress of grievances.
 
-\fakeparagraph{Amendment II}
+\paragraph{Amendment II}\label{par:usa/const/bill/II}
 A well-regulated militia, being necessary to the security of a free state, the right of the people to keep and bear arms, shall
 not be infringed.
 
-\fakeparagraph{Amendment III}
+\paragraph{Amendment III}\label{par:usa/const/bill/III}
 No soldier shall, in time of peace be quartered in any house, without the consent of the owner, nor in time of war, but in a
 manner to be prescribed by law.
 
-\fakeparagraph{Amendment IV}
+\paragraph{Amendment IV}\label{par:usa/const/bill/IV}
 The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and
 seizures, shall not be violated, and no warrants shall issue, but upon probable cause, supported by oath or affirmation, and
 particularly describing the place to be searched, and the persons or things to be seized.
 \end{example}
 \subsection{Values}
-	\label{ssec:usa@values}
-\paragraph{Democracy}
+	\label{sec:usa/values}
+\paragraph{Democracy}\label{par:usa/values/dem}
 Representative government and the separation of powers in a system of checks
 and balances are the basis of American Democracy, which should represent American
 citizen's interests and be an example to the world.
 
-\paragraph{The Pursuit of Happiness}
+\paragraph{The Pursuit of Happiness}\label{par:usa/values/poh}
 The American Constitution sees it as an unalienable right for every citizen to seek
 self-fulfilment. The Pursuit of Happiness, together with the right to life and liberty, are at the core of the
 US American understanding of democracy.
 
-\paragraph{Individual Freedom}
+\paragraph{Individual Freedom}\label{par:usa/values/free}
 Americans' understanding of Individual Freedom is shaped by the Founding Fathers' belief that all
 people are equal. Through the US Constitution's Bill of Rights, the government is
 responsible for protecting each individual's basic \enquote{inalienable} rights among
 which are freedom of speech, press, and religion.
 
-\paragraph{Individualism and Self-Reliance}
+\paragraph{Individualism and Self-Reliance}\label{par:usa/values/indiv}
 Closely connected to the notion of freedom, the idea of Individualism and Self-Reliance encourages American
 citizens to trust in themselves, their abilities, and their conscience to cope with
 their individual fate.
 
-\paragraph{Can-Do-Spirit}
+\paragraph{Can-Do-Spirit}\label{par:usa/values/cds}
 Inventiveness and a tendency to idealize whatever works or is practical illustrate
 an American's Can-Do-Spirit which is often attributed to the frontier experience where man
 was left to his own devices when it came to survive in the wilderness.
 
-\paragraph{Equal Opportunities}
+\paragraph{Equal Opportunities}\label{par:usa/values/eqop}
 Over centuries, the concept of the American Dream has taught Americans that
 self-realization can be achieved through hard work, thrift, family loyalty, and faith
 in free enterprise. Equal Opportunities, however, have not been within reach for all: segregation and
@@ -277,29 +371,29 @@ discrimination have interfered with indigenous peoples and minorities' attempts
 to realize the rights and freedoms, which are also guaranteed for them by the
 Constitution.
 
-\paragraph{Mobility}
+\paragraph{Mobility}\label{par:usa/values/mob}
 For the US nation of immigrants, in which moving elsewhere and making a fresh
 start is seen as a practical solution to many a challenge, Mobility can be described as a
 form of realized optimism promising a better life ahead.
 
-\paragraph{Patriotism}
+\paragraph{Patriotism}\label{par:usa/values/pat}
 Slogans like Proud to be American, the playing of the national anthem at sporting
 events or the pledging of allegiance, which starts off every school morning, are
 signs of a heartfelt omnipresent Patriotism which show Americans' intensified sense of
 national identity and pride in their nation's unique promises.
 
-\paragraph{Progress}
+\paragraph{Progress}\label{par:usa/values/prog}
 Americans associate Progress with the idea of making use of the opportunities, which
 their nation holds in store for them. Hard work and the willingness to make sacrifices
 for a better tomorrow promise self-realization as well as an increase in
 material plenty from generation to generation.
 
-\paragraph{National Security}
+\paragraph{National Security}\label{par:usa/values/natsec}
 In recent years National Security has come into focus. 9/11 left Americans in a state of shock
 and has made certain rights negotiable (right to privacy) which were formerly
 undisputed.
 \subsection{Immigration}
-	\label{ssec:usa@immig}
+	\label{sec:usa/immig}
 The English have been going to North America from the late 16th century on; Spain sent people to the
 southern part of the region and many Dutch and Germans also went over.
 
@@ -336,7 +430,7 @@ Mexico border and to force Mexico to pay for the wall.
 		Community & Gain diversity but new foreign members might not be compatible in values \\ \hline
 	\end{tabularx}
 	\caption{Winners and losers of illegal immigration}
-	\label{tab:my_label}
+	\label{tab:usa/immig/win}
 \end{table}
 \paragraph{Melting pot or salad bowl?} Some People argue that the US is more like a melting pot while others say it's a salad bowl.
 I think the US is a country with a rather bad democracy.
@@ -351,11 +445,11 @@ I think the US is a country with a rather bad democracy.
 		Immigrants have a new identity & Multiculturalism \\ \hline
 	\end{tabularx}
 	\caption{Aspects of a melting pot- vs. a salad bowl-like immigration culture}
-	\label{tab:usa@meltingpot}
+	\label{tab:usa/immig/meltingpot}
 \end{table}
 \newpage
 \subsection{American dream}
-	\label{ssec:usa@dream}
+	\label{sec:usa/dream}
 \paragraph{Why the American Dream needs to be reinvented}
 \begin{itemize}
 \item Gigantic gap in wealth, it doesn’t actually provide equality; the American Dream failed to achieve its goal
@@ -366,7 +460,7 @@ I think the US is a country with a rather bad democracy.
 \end{itemize}
 
 \subsection{Racial issues}
-	\label{ssec:usa@racial}
+	\label{sec:usa/racial}
 \begin{itemize}[leftmargin=5pt+\widthof{1950s and 1960s}]
 \item[Since 1640] Slavery is an essential part of cotton and tobacco-growing industries in the South
 \item[1775] American War of Independence between Britain and its American colonies
@@ -404,7 +498,7 @@ begins
 \item[2008] Barack Obama elected as President of the USA
 \end{itemize}
 \subsection{Gun laws}
-	\label{ssec:usa@guns}
+	\label{sec:usa/guns}
 \paragraph{Gun culture in the US}
 According to reliable estimates there are about 393 million privately owned firearms in
 the USA. Around 40\% of Americans live in a household with a gun, which means that
@@ -432,7 +526,7 @@ a gun hadn't been involved.
 \section{Modern Media}
 	\label{sec:media}
 \subsection{Modern digital media}
-	\label{ssec:media@digital}
+	\label{sec:media/digital}
 \paragraph{School and work} Digital media has been used in business for a long time but
 has only recently made its way into school. A lot has changed since then.
 \begin{table}[htbp]
@@ -445,7 +539,7 @@ has only recently made its way into school. A lot has changed since then.
 		Sharing information and material quickly & Distraction from class \\ \hline
 	\end{tabularx}
 	\caption{Opportunities and challenges of digital media in school and work}
-	\label{tab:media@school}
+	\label{tab:media/school}
 \end{table}
 \paragraph{Digital image processing} Software like Photoshop has been a huge advancement
 in image manipulation. Never have there been such vast options of editing images. Of course
@@ -460,7 +554,7 @@ this also has come with new problems like Deep Fakes being indistinguishable fro
 		Cheaper production costs & People losing their jobs \\ \hline
 	\end{tabularx}
 	\caption{Opportunities and challenges of digital image processing}
-	\label{tab:media@image}
+	\label{tab:media/image}
 \end{table}
 \paragraph{Surveillance} The most prominent case of abuse of surveillance systems is China.
 In connection with their social credit system, they lead their population to denunciate people
@@ -476,11 +570,11 @@ surveillance can help create a safer society.
 		Provide jobs: monitor CCTV, hacking criminal group chats & Can be expensive \\ \hline
 	\end{tabularx}
 	\caption{Opportunities and challenges of digital surveillance}
-	\label{tab:media@surveillance}
+	\label{tab:media/surveillance}
 \end{table}
 
 \subsection{Web 2.0: opportunities and challenges}
-	\label{ssec:media@web2}
+	\label{sec:media/web2}
 The Web 2.0 is different from the Web 1.0 in that people can now use portals like YouTube, Instagram
 or TikTok to put their content out to the world. Previously, a person had to have personal
 Website or Blog. Maintaining that is a rather tedious task, so enterprises like Google and Meta where
@@ -513,7 +607,7 @@ servers.
 \end{table}
 
 \subsection{English as a global language}
-	\label{ssec:media@english}
+	\label{ssec:media/english}
 \newpage
 \section{Ambiguity of belonging: Crooked Letter, Crooked Letter}
 	\label{sec:crookedl}
@@ -556,5 +650,5 @@ Narrative alternates between past and present, Larry and Silas
 \paragraph{Conflict}
 Larry \& Silas relationship conflict
 
-
+\printntexbibliography
 \end{document}

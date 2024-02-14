@@ -32,12 +32,12 @@
 \newif\ifnotoc\notocfalse
 \newif\ifemailadd\emailaddfalse
 \newif\iftoccontinuous\toccontinuousfalse
-\newif\ifnatbibsort\natbibsorttrue
+% \newif\ifnatbibsort\natbibsorttrue
 
-\DeclareOption{no-natbib-sort}{\natbibsortfalse}
-\ProcessOptions\relax
+% \DeclareOption{no-natbib-sort}{\natbibsortfalse}
+% \ProcessOptions\relax
 
-\ifnatbibsort\RequirePackage[numbers,sort&compress]{natbib}\else\RequirePackage[numbers,compress]{natbib}\fi
+% \ifnatbibsort\RequirePackage[numbers,sort&compress]{natbib}\else\RequirePackage[numbers,compress]{natbib}\fi
 \RequirePackage[usenames, dvipsnames, hyperref]{xcolor}
 
 %% the color profile
@@ -92,6 +92,7 @@ pdfusetitle
 \setmonofont{TEX Gyre Cursor}
 
 \usepackage{tocloft}                                % Table of contents Styling
+
 
 \usepackage[shortlabels]{enumitem}                  % Enumitem Options
 
@@ -382,6 +383,15 @@ tabsize=2,
 \newcommand\notoc{\notoctrue}
 \newcommand\preprint[1]{\gdef\@preprint{\hfill #1}}
 \newcommand\license[2]{\gdef\@license{#1}\gdef\@licenseIcon{#2}}
+\newcommand\printntexbibliography{
+\newpage
+\pagestyle{empty}
+\newgeometry{marginparwidth=0pt,marginparsep=0pt,textwidth=.8\paperwidth,hoffset=0in,voffset=0in}
+{\color{ntex@color@primary}\hrule height .6pt}
+\printbibliography
+{\color{ntex@color@primary}\hrule height .6pt}
+}
+
 
 
 %Equivalent to ``\footnote'', but can be used inside the \author macro
@@ -514,7 +524,7 @@ tabsize=2,
 {\huge\centering\sffamily\bfseries\scshape\@title\par}
 \afterTitleSpace
 % Rule
-{\color{ntex@color@primary}\hrule height .6\p@}%
+{\color{ntex@color@primary}\hrule height .6pt}%
 \afterRuleSpace
 % Collaboration
 \if!\@collaboration!\else
@@ -577,11 +587,11 @@ tabsize=2,
 
 \ifnotoc\else
 \iftoccontinuous\else\newpage\fi
-\beforetochook{\color{ntex@color@primary}\hrule height .6\p@}%
+\beforetochook{\color{ntex@color@primary}\hrule height .6pt}%
 
 \tableofcontents
 \afterTocSpace
-{\color{ntex@color@primary}\hrule height .6\p@}%
+{\color{ntex@color@primary}\hrule height .6pt}%
 \afterTocRuleSpace
 \fi
 \if!\@acknowledgments!\else\vfill\noindent{\renewcommand\baselinestretch{.9}\textsc{\sffamily Acknowledgments:}}\ \@acknowledgments\afterAbstractSpace\fi
@@ -592,10 +602,10 @@ tabsize=2,
 
 % Page layout
 \renewcommand{\baselinestretch}{1.0}\normalsize
-\setlength\lineskip{1\p@}
+\setlength\lineskip{1pt}
 \setlength\parindent{1.2\parindent}
-\setlength\normallineskip{1\p@}
-\setlength\parskip{0\p@ \@plus \p@}
+\setlength\normallineskip{1pt}
+\setlength\parskip{0pt \@plus 1pt}
 \@lowpenalty   51
 \@medpenalty  151
 \@highpenalty 301
@@ -611,17 +621,17 @@ tabsize=2,
 \renewcommand\floatpagefraction{1}
 \addtolength\textheight{\topskip}
 
-\marginparpush 6\p@
+\marginparpush 6pt
 \topmargin   .05\paperheight
 
-\setlength\arraycolsep{2\p@}
-\setlength\tabcolsep{6\p@}
-\setlength\arrayrulewidth{.4\p@}
-\setlength\doublerulesep{2\p@}
+\setlength\arraycolsep{2pt}
+\setlength\tabcolsep{6pt}
+\setlength\arrayrulewidth{.4pt}
+\setlength\doublerulesep{2pt}
 \setlength\tabbingsep{\labelsep}
 \skip\@mpfootins = \skip\footins
-\setlength\fboxsep{3\p@}
-\setlength\fboxrule{.4\p@}
+\setlength\fboxsep{3pt}
+\setlength\fboxrule{.4pt}
 
 % No dots in the table of contents
 %\renewcommand{\@dotsep}{10000}
@@ -727,14 +737,14 @@ tabsize=2,
 
 %apply some formatting on the biblio
 %without redefining the whole env
-\let\oldthebibliography=\thebibliography
-\let\endoldthebibliography=\endthebibliography
-\renewenvironment{thebibliography}[1]{%
-\begin{oldthebibliography}{#1}%
-\small%
-\raggedright%
-\setlength{\itemsep}{5pt plus 0.2ex minus 0.05ex}%
-}%
-{%
-\end{oldthebibliography}%
-}
+% \let\oldthebibliography=\thebibliography
+% \let\endoldthebibliography=\endthebibliography
+% \renewenvironment{thebibliography}[1]{%
+% \begin{oldthebibliography}{#1}%
+% \small%
+% \raggedright%
+% \setlength{\itemsep}{5pt plus 0.2ex minus 0.05ex}%
+% }%
+% {%
+% \end{oldthebibliography}%
+% }
