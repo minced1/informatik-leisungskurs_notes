@@ -8,56 +8,48 @@
 \contentsline {paragraph}{Economical role}{3}{sidenote.3}%
 \contentsline {paragraph}{Global role}{3}{sidenote.4}%
 \contentsline {paragraph}{National problems}{3}{sidenote.6}%
-\contentsline {section}{\numberline {2}India}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Partition of British India}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Poverty}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Language}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Technology vs. Backwardsness}{4}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Globalisation}{5}{section.3}%
-\contentsline {paragraph}{Globalisation changing}{5}{definition.1}%
-\contentsline {subsection}{\numberline {3.1}Social aspects}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Political aspects}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Economic aspects}{5}{subsection.3.3}%
-\contentsline {section}{\numberline {4}United States of America}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}History}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Constitution}{8}{subsection.4.2}%
-\contentsline {paragraph}{The Declaration of Independence}{8}{subsection.4.2}%
-\contentsline {paragraph}{The Preamble to the United States Constitution}{8}{example.1}%
-\contentsline {paragraph}{The Bill of Rights}{8}{example.2}%
-\contentsline {paragraph}{Amendment I}{8}{example.3}%
-\contentsline {paragraph}{Amendment II}{8}{example.3}%
-\contentsline {paragraph}{Amendment III}{9}{example.3}%
-\contentsline {paragraph}{Amendment IV}{9}{example.3}%
-\contentsline {subsection}{\numberline {4.3}Values}{9}{subsection.4.3}%
-\contentsline {paragraph}{Democracy}{9}{subsection.4.3}%
-\contentsline {paragraph}{The Pursuit of Happiness}{9}{subsection.4.3}%
-\contentsline {paragraph}{Individual Freedom}{9}{subsection.4.3}%
-\contentsline {paragraph}{Individualism and Self-Reliance}{9}{subsection.4.3}%
-\contentsline {paragraph}{Can-Do-Spirit}{9}{subsection.4.3}%
-\contentsline {paragraph}{Equal Opportunities}{9}{subsection.4.3}%
-\contentsline {paragraph}{Mobility}{9}{subsection.4.3}%
-\contentsline {paragraph}{Patriotism}{9}{subsection.4.3}%
-\contentsline {paragraph}{Progress}{9}{subsection.4.3}%
-\contentsline {paragraph}{National Security}{9}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Immigration}{10}{subsection.4.4}%
-\contentsline {paragraph}{Melting pot or salad bowl?}{10}{table.caption.2}%
-\contentsline {subsection}{\numberline {4.5}American dream}{11}{subsection.4.5}%
-\contentsline {paragraph}{Why the American Dream needs to be reinvented}{11}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Racial issues}{11}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Gun laws}{13}{subsection.4.7}%
-\contentsline {paragraph}{Gun culture in the US}{13}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Modern Media}{13}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Modern digital media}{13}{subsection.5.1}%
-\contentsline {paragraph}{School and work}{13}{subsection.5.1}%
-\contentsline {paragraph}{Digital image processing}{13}{table.caption.4}%
-\contentsline {paragraph}{Surveillance}{14}{table.caption.5}%
-\contentsline {subsection}{\numberline {5.2}Web 2.0: opportunities and challenges}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}English as a global language}{14}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Ambiguity of belonging: Crooked Letter, Crooked Letter}{15}{section.6}%
+\contentsline {section}{\numberline {2}Globalisation}{3}{section.2}%
+\contentsline {paragraph}{Globalisation changing}{4}{definition.1}%
+\contentsline {section}{\numberline {3}United States of America}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}History}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Constitution}{7}{subsection.3.2}%
+\contentsline {paragraph}{The Declaration of Independence}{7}{subsection.3.2}%
+\contentsline {paragraph}{The Preamble to the United States Constitution}{7}{example.1}%
+\contentsline {paragraph}{The Bill of Rights}{7}{example.2}%
+\contentsline {paragraph}{Amendment I}{7}{example.3}%
+\contentsline {paragraph}{Amendment II}{7}{example.3}%
+\contentsline {paragraph}{Amendment III}{8}{example.3}%
+\contentsline {paragraph}{Amendment IV}{8}{example.3}%
+\contentsline {subsection}{\numberline {3.3}Values}{8}{subsection.3.3}%
+\contentsline {paragraph}{Democracy}{8}{subsection.3.3}%
+\contentsline {paragraph}{The Pursuit of Happiness}{8}{subsection.3.3}%
+\contentsline {paragraph}{Individual Freedom}{8}{subsection.3.3}%
+\contentsline {paragraph}{Individualism and Self-Reliance}{8}{subsection.3.3}%
+\contentsline {paragraph}{Can-Do-Spirit}{8}{subsection.3.3}%
+\contentsline {paragraph}{Equal Opportunities}{8}{subsection.3.3}%
+\contentsline {paragraph}{Mobility}{8}{subsection.3.3}%
+\contentsline {paragraph}{Patriotism}{8}{subsection.3.3}%
+\contentsline {paragraph}{Progress}{8}{subsection.3.3}%
+\contentsline {paragraph}{National Security}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Immigration}{9}{subsection.3.4}%
+\contentsline {paragraph}{Melting pot or salad bowl?}{9}{table.caption.2}%
+\contentsline {subsection}{\numberline {3.5}American dream}{10}{subsection.3.5}%
+\contentsline {paragraph}{Why the American Dream needs to be reinvented}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Racial issues}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Gun laws}{12}{subsection.3.7}%
+\contentsline {paragraph}{Gun culture in the US}{12}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Modern Media}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Modern digital media}{12}{subsection.4.1}%
+\contentsline {paragraph}{School and work}{12}{subsection.4.1}%
+\contentsline {paragraph}{Digital image processing}{12}{table.caption.4}%
+\contentsline {paragraph}{Surveillance}{13}{table.caption.5}%
+\contentsline {subsection}{\numberline {4.2}Web 2.0: opportunities and challenges}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}English as a global language}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Ambiguity of belonging: Crooked Letter, Crooked Letter}{15}{section.5}%
 \contentsline {paragraph}{Larry}{15}{definition.2}%
 \contentsline {paragraph}{Silas}{15}{definition.2}%
-\contentsline {paragraph}{Title}{16}{definition.2}%
-\contentsline {paragraph}{Setting}{16}{definition.2}%
-\contentsline {paragraph}{Theme}{16}{definition.2}%
-\contentsline {paragraph}{Structure}{16}{definition.2}%
-\contentsline {paragraph}{Conflict}{16}{definition.2}%
+\contentsline {paragraph}{Title}{15}{definition.2}%
+\contentsline {paragraph}{Setting}{15}{definition.2}%
+\contentsline {paragraph}{Theme}{15}{definition.2}%
+\contentsline {paragraph}{Structure}{15}{definition.2}%
+\contentsline {paragraph}{Conflict}{15}{definition.2}%

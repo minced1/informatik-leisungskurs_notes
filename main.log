@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023/nixos.org)  (format=lualatex 1980.1.1)  14 FEB 2024 14:15
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023/nixos.org)  (format=lualatex 1980.1.1)  14 FEB 2024 17:17
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2460,7 +2460,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.3
 LaTeX Warning: Marginpar on page 2 moved.
 
 [2]
-Underfull \hbox (badness 3449) in paragraph at lines 127--127
+Underfull \hbox (badness 3449) in paragraph at lines 129--129
 []$[][]$ \TU/TEXGyrePagella(0)/m/it/8 Loose al-liance of  coun-tries
  []
 
@@ -2473,85 +2473,84 @@ warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.6
 
 LaTeX Warning: Marginpar on page 3 moved.
 
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 164.
 [3
 warning  (pdf backend): ignoring duplicate destination with the name 'sidenote.4
 '
-] [4]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 161.
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+]
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 \TU/TEXGyrePagella(0)/m/n/10 ments, (mus-cle)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 []|\TU/TEXGyrePagella(0)/m/n/10 more di-verse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 \TU/TEXGyrePagella(0)/m/n/10 white), em-pow-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 \TU/TEXGyrePagella(0)/m/n/10 er-ment through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 []|\TU/TEXGyrePagella(0)/m/n/10 col-lab-o-ra-tion,
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 183--183
+Underfull \hbox (badness 1762) in paragraph at lines 186--186
 \TU/TEXGyrePagella(0)/m/n/10 try fit in and go
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 183--183
+Underfull \hbox (badness 1622) in paragraph at lines 186--186
 []|\TU/TEXGyrePagella(0)/m/n/10 Where does com-
  []
 
-[5]
-Overfull \hbox (0.93045pt too wide) in paragraph at lines 238--238
+[4]
+Overfull \hbox (0.93045pt too wide) in paragraph at lines 241--241
  [][][][][]\TU/TEXGyreAdventor(0)/m/n/8 Amend- 
  []
 
 
-Overfull \hbox (0.93045pt too wide) in paragraph at lines 238--238
+Overfull \hbox (0.93045pt too wide) in paragraph at lines 241--241
  [][][][][]\TU/TEXGyreAdventor(0)/m/n/8 Amend- 
  []
 
 
-Overfull \hbox (0.93045pt too wide) in paragraph at lines 238--238
+Overfull \hbox (0.93045pt too wide) in paragraph at lines 241--241
  [][][][][]\TU/TEXGyreAdventor(0)/m/n/8 Amend- 
  []
 
 
-Overfull \hbox (0.93045pt too wide) in paragraph at lines 238--238
+Overfull \hbox (0.93045pt too wide) in paragraph at lines 241--241
  [][][][][]\TU/TEXGyreAdventor(0)/m/n/8 Amend- 
  []
 
-[6] [7]
+[5] [6]
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 279.
- [8] [9] [10] [11] [12]
+t line 283.
+ [7] [8] [9] [10] [11]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 571--571
+Underfull \hbox (badness 1748) in paragraph at lines 590--590
 []|\TU/TEXGyrePagella(0)/m/n/10 Iden-ti-fi-ca-tion of crim-i-nals (CCTV) or
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+[12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 []|\TU/TEXGyrePagella(0)/m/n/10 Ad-dic-tive
  []
 
-[14] [15] [16]
+[14] [15]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
 * paper: a4paper
@@ -2586,9 +2585,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--604
 
 
 
-LaTeX Warning: Empty bibliography on input line 653.
+LaTeX Warning: Empty bibliography on input line 689.
 
-[17
+[16
 
 ] (./main.aux)
  ***********
@@ -2596,14 +2595,14 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B33905A8E165501D1AC1CFF7B2D5C3D1;3926.
+(rerunfilecheck)             Checksum: 344F5EA1CC99438654B5160024658AAC;2841.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 60957 strings out of 476497
+ 60934 strings out of 476497
  156358,2848258 words of node,token memory allocated
  13450 words of node memory still in use:
    84 hlist, 28 vlist, 2 rule, 70 disc, 14 local_par, 26 math, 234 glue, 156 ker
@@ -2611,8 +2610,8 @@ n, 40 penalty, 16 margin_kern, 1033 glyph, 265 attribute, 113 glue_spec, 134 att
 ribute_list, 2 write, 20 pdf_action nodes
    avail lists: 1:3,2:9892,3:3826,4:296,5:924,6:91,7:9088,8:3,9:1260,10:9,11:635
 
- 81642 multiletter control sequences out of 65536+600000
- 131 fonts using 27046491 bytes
+ 81628 multiletter control sequences out of 65536+600000
+ 131 fonts using 27046559 bytes
  116i,14n,114p,1128b,1914s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </nix/store/3sn4sdl59hnk6diaqfqzfwvc3qdpmv3j-gyre-fonts-2.005/share/fonts/truety
 pe/texgyrepagella-bold.otf></nix/store/3sn4sdl59hnk6diaqfqzfwvc3qdpmv3j-gyre-fon
@@ -2627,10 +2626,10 @@ are/fonts/truetype/texgyreadventor-bolditalic.otf></nix/store/3sn4sdl59hnk6diaqf
 qzfwvc3qdpmv3j-gyre-fonts-2.005/share/fonts/truetype/texgyreadventor-bold.otf></
 nix/store/m2615lngxdwy5gpw49l2p0klaqlx3ak4-texlive-combined-full-2023.20240114-t
 exmfdist/fonts/type1/public/ccicons/ccicons.pfb>
-Output written on main.pdf (19 pages, 120957 bytes).
+Output written on main.pdf (18 pages, 120564 bytes).
 
-PDF statistics: 403 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 131072)
- 262 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 358 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 131072)
+ 198 words of extra memory for PDF output out of 10000 (max. 100000000)
 
