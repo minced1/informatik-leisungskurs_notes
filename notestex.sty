@@ -505,6 +505,13 @@ tabsize=2,
 \renewcommand{\cftsubsecpagefont}{\footnotesize\sffamily}
 \renewcommand{\cftsubsecdotsep}{\cftnodots}
 
+\renewcommand{\cftsubsubsecpresnum}{\hfill}% Right-align
+\renewcommand{\cftsubsubsecaftersnum}[1]{}% Remove \hfil after number
+\renewcommand{\cftsubsubsecaftersnumb}{\hspace{1em}}% Space between number and section title
+\renewcommand{\cftsubsubsecfont}{\footnotesize\sffamily}
+\renewcommand{\cftsubsubsecpagefont}{\footnotesize\sffamily}
+\renewcommand{\cftsubsubsecdotsep}{\cftnodots}
+
 %first page
 \renewcommand\maketitle{
 %% First page
