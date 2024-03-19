@@ -6,14 +6,18 @@
 \contentsline {paragraph}{KV-Diagramme}{2}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Netzwerke}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Schichtenmodell}{2}{subsection.2.1}%
+\contentsline {paragraph}{Anwendungen}{2}{subsection.2.1}%
+\contentsline {paragraph}{Transport}{2}{subsection.2.1}%
+\contentsline {paragraph}{Internet}{2}{subsection.2.1}%
+\contentsline {paragraph}{Netzzugang}{2}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Krytologie}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Kerckhoffsches Prinzip}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Ziele der Verschlüsselung}{2}{subsection.3.2}%
 \contentsline {paragraph}{Vertraulichkeit}{2}{subsection.3.2}%
-\contentsline {paragraph}{Integrität}{2}{subsection.3.2}%
-\contentsline {paragraph}{Authentizität}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}(A)symmetrische Verschlüsselung}{2}{subsection.3.3}%
-\contentsline {paragraph}{Symmetrische Verschlüsselung}{2}{subsection.3.3}%
+\contentsline {paragraph}{Integrität}{3}{subsection.3.2}%
+\contentsline {paragraph}{Authentizität}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}(A)symmetrische Verschlüsselung}{3}{subsection.3.3}%
+\contentsline {paragraph}{Symmetrische Verschlüsselung}{3}{subsection.3.3}%
 \contentsline {paragraph}{Asymmetrische Verschlüsselung}{3}{subsection.3.3}%
 \contentsline {paragraph}{Hybride Verschlüsselung}{3}{subsection.3.3}%
 \contentsline {paragraph}{Transpositionsverfahren}{3}{subsection.3.3}%
